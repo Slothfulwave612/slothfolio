@@ -2519,7 +2519,7 @@ body {
     ==============
 */
 .mh-service .mh-service-item {
-  padding: 50px;
+  padding: 20px;
   margin-bottom: 20px;
 }
   .mh-service .mh-service-item .fa {
@@ -2541,7 +2541,7 @@ body {
   .mh-service .mh-service-item a {
     color: #0bceaf; }
     .mh-service .mh-service-item a .fa {
-      font-size: 16px;
+      font-size: 12px;
       line-height: 27px;
       margin-left: 6px; }
 
