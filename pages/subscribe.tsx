@@ -18,10 +18,10 @@ const SubscribeToNewsletterView: React.FunctionComponent = () => {
         }
         embedSource={{
           twitter:
-            'https://ik.imagekit.io/eawrckp8wfi/portfolio-image-source/seo/subscribe%20to%20newsletter%20cover_beAQwH1AT.png?updatedAt=1691257541383&tr=w-1200%2Ch-675%2Cfo-auto',
+            '',
           linkedin:
-            'https://ik.imagekit.io/eawrckp8wfi/portfolio-image-source/seo/subscribe%20to%20newsletter%20cover_beAQwH1AT.png?updatedAt=1691257541383&tr=w-1200%2Ch-628%2Cfo-auto',
-          og: 'https://ik.imagekit.io/eawrckp8wfi/portfolio-image-source/seo/subscribe%20to%20newsletter%20cover_beAQwH1AT.png?updatedAt=1691257541383',
+            '',
+          og: '',
         }}
       />
       <div className="subscribe-to-newsletter-view-container font-sans">
