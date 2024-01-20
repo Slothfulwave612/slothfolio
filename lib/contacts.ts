@@ -13,7 +13,7 @@ export const getContacts = function (): ContactItemProps[] {
       title: 'Resume',
       link: {
         display: 'My Resume',
-        url: '/resume',
+        url: '/utils/Resume - Anmol Durgapal.pdf',
       },
     },
     {
