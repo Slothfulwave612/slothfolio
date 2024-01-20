@@ -23,23 +23,13 @@ interface LearningItemProps extends React.HTMLAttributes<HTMLDivElement> {
 }
 
 const LearningsView: React.FunctionComponent = () => {
-  const [currentPage, setCurrentPage] = useState(1);
   const [loadingImages, setLoadingImages] = useState(true);
-  const itemsPerPage = 7;
 
-  const totalPages = Math.ceil(getLearnings()?.length / itemsPerPage);
-  const startIndex = (currentPage - 1) * itemsPerPage;
-  const endIndex = startIndex + itemsPerPage;
-  const visibleLearnings = getLearnings()?.slice(startIndex, endIndex);
+  const visibleLearnings = getLearnings();
 
   useEffect(() => {
-    setLoadingImages(true); // Reset loading state when changing the page
-  }, [currentPage]);
-
-  const handlePageChange = (page: number) => {
-    setCurrentPage(page);
-    document.documentElement.scrollTop = 0;
-  };
+    setLoadingImages(true);
+  }, []); // Run only once when the component mounts
 
   const handleImageLoad = () => {
     setLoadingImages(false);
@@ -81,7 +71,7 @@ const LearningsView: React.FunctionComponent = () => {
                       className={`max-lg:w-full object-cover bg-zinc-200 ${loadingImages ? 'loading-image' : ''
                         }`}
                       onLoad={handleImageLoad}
-                      loading="lazy" // Add lazy loading
+                      loading="lazy"
                     />
                   </a>
                   <div className="learning-details-wrapper p-4">
@@ -113,74 +103,16 @@ const LearningsView: React.FunctionComponent = () => {
                 </div>
               ))}
             </div>
-            <div className="pagination-controls mt-4">
-              <button
-                onClick={() => handlePageChange(1)}
-                disabled={currentPage === 1}
-                className="pagination-button"
-              >
-                {'⟸'}
-              </button>
-              <button
-                onClick={() => handlePageChange(currentPage - 1)}
-                disabled={currentPage === 1}
-                className="pagination-button"
-              >
-                {'⟵'}
-              </button>
-              <span className="pagination-info">
-                Page {currentPage} of {totalPages}
-              </span>
-              <button
-                onClick={() => handlePageChange(currentPage + 1)}
-                disabled={currentPage === totalPages}
-                className="pagination-button"
-              >
-                {'⟶'}
-              </button>
-              <button
-                onClick={() => handlePageChange(totalPages)}
-                disabled={currentPage === totalPages}
-                className="pagination-button"
-              >
-                {'⟹'}
-              </button>
-            </div>
           </Section>
         </ViewContainer>
       </div>
       <style jsx>{`
-        .pagination-controls {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-
-        .pagination-button {
-          background-color: rgba(100, 149, 237, 0.5);
-          color: #222222;
-          border: none;
-          padding: 8px 16px;
-          margin: 0 4px;
-          border-radius: 8px;
-          cursor: pointer;
-        }
-
-        .pagination-button:hover {
-          background-color: rgba(100, 149, 237);
-          color: #ffffff;
-        }
-
-        .pagination-info {
-          margin: 0 10px;
-        }
-
         .loading-image {
           position: relative;
           width: 100%;
           height: 0;
-          padding-top: 75%; /* 4:3 aspect ratio (adjust as needed) */
-          background-color: #f3f3f3; /* Placeholder background color */
+          padding-top: 75%;
+          background-color: #f3f3f3;
         }
       `}</style>
     </>
