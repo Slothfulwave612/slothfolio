@@ -34,10 +34,10 @@ const MDXHeader: React.FunctionComponent<MDXHeaderProps> = ({
         description={craftHeaderData?.description}
         embedSource={{
           twitter:
-            'https://ik.imagekit.io/eawrckp8wfi/portfolio-image-source/seo/crafts?updatedAt=1679904848893&tr=w-1200%2Ch-675%2Cfo-auto',
+            '',
           linkedin:
-            'https://ik.imagekit.io/eawrckp8wfi/portfolio-image-source/seo/crafts?updatedAt=1679904848893&tr=w-1200%2Ch-628%2Cfo-auto',
-          og: 'https://ik.imagekit.io/eawrckp8wfi/portfolio-image-source/seo/crafts?updatedAt=1679904848893',
+            '',
+          og: '',
         }}
       />
       <div className={cn('mdx-header my-12', className)} {...attr}>
@@ -80,7 +80,7 @@ const MDXHeader: React.FunctionComponent<MDXHeaderProps> = ({
                 )}
                 onClick={() => {
                   copyToClipboard({
-                    content: `https://yashsehgal.com${pathName}`,
+                    content: ``,
                   });
                   setCopyAction(true);
                 }}>

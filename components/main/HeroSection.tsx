@@ -33,7 +33,7 @@ const HeroSection: React.FunctionComponent = () => {
             }
           </p>
           <div className="flex flex-row items-center justify-start gap-4">
-            <Button onClick={() => window.open('https://cal.com/yashsehgal')}>
+            <Button onClick={() => window.open('https://cal.com/')}>
               {'Schedule a meet / cal.com'}
             </Button>
             <LinkText
