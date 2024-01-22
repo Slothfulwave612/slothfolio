@@ -11,7 +11,7 @@ export const getPathMap = function (): PathMapProps[] {
     {
       pathType: 'internal',
       title: '📈 Data Viz',
-      link: '/learnings',
+      link: '/data_viz',
       isAvailable: true,
     },
     {

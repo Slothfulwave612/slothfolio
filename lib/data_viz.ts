@@ -1,4 +1,4 @@
-import { LearningItemProps } from '@/pages/learnings';
+import { LearningItemProps } from '@/pages/data_viz';
 
 export const getLearnings = function (): LearningItemProps[] {
   const learnings: LearningItemProps[] = [

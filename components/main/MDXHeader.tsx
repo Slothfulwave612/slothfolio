@@ -34,10 +34,10 @@ const MDXHeader: React.FunctionComponent<MDXHeaderProps> = ({
         description={craftHeaderData?.description}
         embedSource={{
           twitter:
-            '',
+            '/media/icon.ico',
           linkedin:
-            '',
-          og: '',
+            '/media/icon.ico',
+          og: '/media/icon.ico',
         }}
       />
       <div className={cn('mdx-header my-12', className)} {...attr}>

@@ -29,34 +29,34 @@ const MetaHead: React.FunctionComponent<MetaHeadProps> = ({
       <meta property="og:url" content="https://slothfulwave612.vercel.app/" />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
-      {/* <meta
+      <meta
         property="og:image"
         content={
           embedSource === 'default'
-            ? ''
+            ? '/media/icon.ico'
             : embedSource?.og
         }
-      /> */}
+      />
 
       <meta
         property="twitter:card"
         content={
           embedSource === 'default'
-            ? ''
+            ? '/media/icon.ico'
             : embedSource?.twitter
         }
       />
-      <meta property="twitter:url" content="https://slothfulwave612.vercel.app/" />
+      <meta property="twitter:url" content="https://twitter.com/slothfulwave612" />
       <meta property="twitter:title" content={title} />
       <meta property="twitter:description" content={description} />
-      {/* <meta
+      <meta
         property="twitter:image"
         content={
           embedSource === 'default'
-            ? ''
+            ? '/media/icon.ico'
             : embedSource?.twitter
         }
-      /> */}
+      />
     </Head>
   );
 };

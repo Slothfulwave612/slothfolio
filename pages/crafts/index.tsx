@@ -22,13 +22,13 @@ const Crafts: React.FunctionComponent = () => {
     <>
       <MetaHead
         title={'Crafts | Anmol Durgapal'}
-        description={'A Collection of Hand-Crafted Frontend UI Components.'}
+        description={''}
         embedSource={{
           twitter:
-            '',
+            '/media/icon.ico',
           linkedin:
-            '',
-          og: '',
+            '/media/icon.ico',
+          og: '/media/icon.ico',
         }}
       />
       <div className="crafts-view-container" id="crafts">

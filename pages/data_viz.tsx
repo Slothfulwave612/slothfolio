@@ -4,7 +4,7 @@ import ViewContainer from '@/components/layout/ViewContainer';
 import Header from '@/components/main/Header';
 import MetaHead from '@/components/seo/MetaHead';
 import Tag from '@/components/ui/Tag';
-import { getLearnings } from '@/lib/learnings';
+import { getLearnings } from '@/lib/data_viz';
 import { cn } from '@/lib/utils';
 
 interface LearningItemProps extends React.HTMLAttributes<HTMLDivElement> {
@@ -38,8 +38,8 @@ const LearningsView: React.FunctionComponent = () => {
   return (
     <>
       <MetaHead
-        title="Learnings | Anmol Durgapal"
-        description="My learnings while doing engineering and design in the form of video logs"
+        title="Data Visualization | Anmol Durgapal"
+        description="My Data Visualization Work 🎨"
       />
       <div className="learnings-view-container">
         <ViewContainer className={'my-16'}>

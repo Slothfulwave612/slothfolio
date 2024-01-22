@@ -26,10 +26,10 @@ const BlogView: React.FunctionComponent = () => {
         description={'Design and Technical Blogs by Anmol Durgapal.'}
         embedSource={{
           twitter:
-            '',
+            '/media/icon.ico',
           linkedin:
-            '',
-          og: '',
+            '/media/icon.ico',
+          og: '/media/icon.ico',
         }}
       />
       <div className="blog-view-container" id="blog">
