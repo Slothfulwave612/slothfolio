@@ -15,7 +15,7 @@ const MainView: React.FunctionComponent = () => {
           <HeroSection />
         </ViewContainer>
         <ViewContainer className="grid grid-cols-1 items-start justify-start gap-12">
-          <ContactSection />
+          {/* <ContactSection /> */}
           <ExperienceSection />
           <ProjectSection />
           <div style={{ textAlign: 'center', marginBottom: '0' }}>
