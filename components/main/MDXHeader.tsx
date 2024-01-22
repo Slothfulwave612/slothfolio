@@ -1,3 +1,4 @@
+/*
 import { getCraftHeader } from '@/lib/crafts';
 import { cn, copyToClipboard } from '@/lib/utils';
 import { ArrowLeft, Clock, Heart } from 'lucide-react';
@@ -95,3 +96,4 @@ const MDXHeader: React.FunctionComponent<MDXHeaderProps> = ({
 };
 
 export default MDXHeader;
+*/
