@@ -3,20 +3,29 @@ import Section from '../layout/Section';
 import { motion } from 'framer-motion';
 
 const Header: React.FunctionComponent = () => {
+  const initialSrc = '/media/profile.jpg';
+  const fullResolutionSrc = '/media/1profile.jpg';
+
+  const handleImageClick = () => {
+    window.open(fullResolutionSrc, '_blank');
+  };
+
   return (
     <Section className="flex flex-row items-center justify-start gap-4 mt-12 max-sm:items-start max-md:items-start">
       <motion.div
         className="profile-icon-wrapper relative w-fit h-fit"
         whileHover={{ scale: 1.1 }}
         transition={{ type: 'spring', stiffness: 400, damping: 10 }}>
-        <Image
-          src={'/media/profile.jpg'}
-          alt="anmol-profile"
-          width={'80'}
-          height={'80'}
-          className="rounded-full transition-all"
-          priority
-        />
+        <div onClick={handleImageClick}>
+          <Image
+            src={initialSrc}
+            alt="anmol-profile"
+            width={'80'}
+            height={'80'}
+            className="rounded-full transition-all"
+            priority
+          />
+        </div>
         <motion.div
           className="box icon-content-wrapper animation-delay absolute px-2 py-1 bg-white shadow rounded-full text-sm left-14 bottom-0 cursor-default select-none max-sm:left-8 max-sm:text-xs max-sm:px-1 max-sm:py-0.5"
           whileHover={{ scale: 1.1 }}
