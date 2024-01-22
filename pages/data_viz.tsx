@@ -38,7 +38,7 @@ const LearningsView: React.FunctionComponent = () => {
   return (
     <>
       <MetaHead
-        title="Data Visualization | Anmol Durgapal"
+        title="Data Visualization"
         description="My Data Visualization Work 🎨"
       />
       <div className="learnings-view-container">
@@ -105,6 +105,18 @@ const LearningsView: React.FunctionComponent = () => {
             </div>
           </Section>
         </ViewContainer>
+        <div style={{ textAlign: 'center', marginBottom: '0' }}>
+          <p style={{ fontSize: '12px', color: '#9B9B9B' }}>
+            Website template and code inspired by{' '}
+            <a
+              href="https://github.com/yashsehgal/personal-website"
+              target="_blank"
+              style={{ textDecoration: 'underline', color: '#9B9B9B' }}
+            >
+              yashsehgal
+            </a>{' '}
+          </p>
+        </div>
       </div>
       <style jsx>{`
         .loading-image {

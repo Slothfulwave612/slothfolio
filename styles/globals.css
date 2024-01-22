@@ -7,7 +7,7 @@
 
 html,
 body {
-  @apply bg-zinc-100 mb-12;
+  @apply bg-zinc-100 mb-1;
   font-family: 'Outfit', sans-serif;
 }
 

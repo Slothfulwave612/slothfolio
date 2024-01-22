@@ -18,6 +18,18 @@ const MainView: React.FunctionComponent = () => {
           <ContactSection />
           <ExperienceSection />
           <ProjectSection />
+          <div style={{ textAlign: 'center', marginBottom: '0' }}>
+            <p style={{ fontSize: '12px', color: '#9B9B9B' }}>
+              Website template and code inspired by{' '}
+              <a
+                href="https://github.com/yashsehgal/personal-website"
+                target="_blank"
+                style={{ textDecoration: 'underline', color: '#9B9B9B' }}
+              >
+                yashsehgal
+              </a>{' '}
+            </p>
+          </div>
         </ViewContainer>
       </div>
     </>
