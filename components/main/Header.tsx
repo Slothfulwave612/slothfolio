@@ -46,7 +46,7 @@ const Header: React.FunctionComponent = () => {
               alt="email-icon"
               whileHover={{ scale: 1.2 }}
               transition={{ type: 'spring', stiffness: 400, damping: 10 }}
-              style={{ width: '30px', height: '30px' }}
+              style={{ width: '33px', height: '33px' }}
             />
           </a>
           {/* Resume */}
@@ -56,7 +56,7 @@ const Header: React.FunctionComponent = () => {
               alt="resume-icon"
               whileHover={{ scale: 1.2 }}
               transition={{ type: 'spring', stiffness: 400, damping: 10 }}
-              style={{ width: '30px', height: '30px' }}
+              style={{ width: '33px', height: '33px' }}
             />
           </a>
           {/* Github */}
@@ -66,7 +66,7 @@ const Header: React.FunctionComponent = () => {
               alt="github-icon"
               whileHover={{ scale: 1.2 }}
               transition={{ type: 'spring', stiffness: 400, damping: 10 }}
-              style={{ width: '30px', height: '30px' }}
+              style={{ width: '33px', height: '33px' }}
             />
           </a>
           {/* Linkedin */}
@@ -76,7 +76,7 @@ const Header: React.FunctionComponent = () => {
               alt="linkedin-icon"
               whileHover={{ scale: 1.2 }}
               transition={{ type: 'spring', stiffness: 400, damping: 10 }}
-              style={{ width: '30px', height: '30px' }}
+              style={{ width: '33px', height: '33px' }}
             />
           </a>
           {/* Twitter */}
@@ -86,7 +86,7 @@ const Header: React.FunctionComponent = () => {
               alt="twitter-icon"
               whileHover={{ scale: 1.2 }}
               transition={{ type: 'spring', stiffness: 400, damping: 10 }}
-              style={{ width: '30px', height: '30px' }}
+              style={{ width: '33px', height: '33px' }}
             />
           </a>
           {/* Spotify */}
@@ -96,7 +96,7 @@ const Header: React.FunctionComponent = () => {
               alt="spotify-icon"
               whileHover={{ scale: 1.2 }}
               transition={{ type: 'spring', stiffness: 400, damping: 10 }}
-              style={{ width: '30px', height: '30px' }}
+              style={{ width: '33px', height: '33px' }}
             />
           </a>
         </div>

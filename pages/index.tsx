@@ -1,5 +1,4 @@
 import ViewContainer from '@/components/layout/ViewContainer';
-import ContactSection from '@/components/main/ContactSection';
 import ExperienceSection from '@/components/main/ExperienceSection';
 import Header from '@/components/main/Header';
 import HeroSection from '@/components/main/HeroSection';
@@ -15,7 +14,6 @@ const MainView: React.FunctionComponent = () => {
           <HeroSection />
         </ViewContainer>
         <ViewContainer className="grid grid-cols-1 items-start justify-start gap-12">
-          {/* <ContactSection /> */}
           <ExperienceSection />
           <ProjectSection />
           <div style={{ textAlign: 'center', marginBottom: '0' }}>

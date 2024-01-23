@@ -16,9 +16,21 @@ const HeroSection: React.FunctionComponent = () => {
         <div className="about-content-wrapper leading-6 text-sm font-normal text-zinc-500 mt-4">
           <p>
             {
-              'Hey! I am a Data Professional and Developer. I currently work at Networth Corp as a Data Scientist, where our focus is on solving business challenges through data-driven solutions. I am proficient in database engineering, data processing, visualizations, and predictive modeling.'
+              'Hey! I am a Data Professional and Developer. I currently work at Networth Corp as a Data Scientist, where our focus is on solving business challenges through data-driven solutions.'
             }
           </p>
+          <br></br>
+          <p className="text-base text-gray-2000">
+            {'Skills'}
+          </p>
+          <p>{'➲ Python Scripting & Automation: Numpy, Pandas, SciPy, Statsmodels, Matplotlib, Seaborn, Plotly, Scikit-Learn'}</p>
+          {/* <p>{'➲ Other Programming Languages: C, C++, R'}</p> */}
+          <p>{'➲ Azure DevOps: Managing Repos, Deploying CI/CD Pipelines, Sprint Planning'}</p>
+          <p>{'➲ Frontend: Python Dash, Python Streamlit, Microsoft Power Apps, Microsoft Power BI, HTML, CSS'}</p>
+          <p>{'➲ Database: Fundamentals of Database Engineering, Microsoft SQL Server, PostgreSQL, PyODBC'}</p>
+          <p>{'➲ Statistical Analysis, Data Mining & Maching Learning'}</p>
+          <p>{'➲ Others: Version Control (Git/GitHub), Microsoft Excel, draw.io (UML Diagrams/Flowcharts), Trello (Kanban Framework)'}</p>
+          <p>{'➲ Soft Skills: Problem Solver, Critical Thinker, Contributor/Team Player, Effective Communicator, Coachable & Adaptable'}</p>
         </div>
 
         {/* <Callout className="mt-4">
