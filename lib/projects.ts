@@ -3,6 +3,26 @@ import { ProjectItemProps } from '@/components/main/ProjectSection';
 export const getProjects = function (): ProjectItemProps[] {
   let projects: ProjectItemProps[] = [
     {
+      projectTitle: 'Nightingale Chart Plotter',
+      projectData: {
+        liveURL: 'https://slothfulwave612-nightingale-charts-plotter-srcwebapp-tyj9j6.streamlit.app/',
+        relatedLinks: [
+          {
+            label: 'GitHub',
+            link: 'https://github.com/Slothfulwave612/Nightingale-Charts-Plotter',
+          },
+        ],
+      },
+      description: [
+        'Developed an interactive web app using Python hosted on Streamlit server that generates nightingale charts.',
+        'Engineered a user-friendly design customization feature within the application, enabling users to modify the chart layout.'
+      ],
+      tech: ['Streamlit', 'Matplotlib', 'Python', 'Data Visualization'],
+      category: [' Data Visualization', ' UI/UX', ' Streamlit', ' Matplotlib', ' Python'],
+      status: 'Personal Project',
+    },
+
+    {
       projectTitle: 'soccerplots',
       projectData: {
         documentationURL: 'https://github.com/Slothfulwave612/soccerplots/tree/master/docs',
@@ -41,26 +61,6 @@ export const getProjects = function (): ProjectItemProps[] {
       tech: ['Object-Oriented Programming', 'Python', 'Matplotlib', 'Data Visualization', 'Technical Documentation'],
       category: [' Object-Oriented Programming', ' Python', ' Matplotlib', ' Data Visualization', ' Technical Documentation'],
       status: 'Open Source',
-    },
-
-    {
-      projectTitle: 'Nightingale Chart Plotter',
-      projectData: {
-        liveURL: 'https://slothfulwave612-nightingale-charts-plotter-srcwebapp-tyj9j6.streamlit.app/',
-        relatedLinks: [
-          {
-            label: 'GitHub',
-            link: 'https://github.com/Slothfulwave612/Nightingale-Charts-Plotter',
-          },
-        ],
-      },
-      description: [
-        'Developed an interactive web app using Python hosted on Streamlit server that generates nightingale charts.',
-        'Engineered a user-friendly design customization feature within the application, enabling users to modify the chart layout.'
-      ],
-      tech: ['Streamlit', 'Matplotlib', 'Python', 'Data Visualization'],
-      category: [' Data Visualization', ' UI/UX', ' Streamlit', ' Matplotlib', ' Python'],
-      status: 'Personal Project',
     },
   ];
 

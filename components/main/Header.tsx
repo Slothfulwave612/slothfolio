@@ -36,7 +36,6 @@ const Header: React.FunctionComponent = () => {
           <p>
             {'A data professional and developer crafting action-oriented solutions.'}
           </p>
-          <p>{new Date().getFullYear() - 2000 + ', He/Him'}</p>
         </div>
         <div className="flex gap-4 mt-4">
           {/* Email */}
