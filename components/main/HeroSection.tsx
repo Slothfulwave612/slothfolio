@@ -16,21 +16,20 @@ const HeroSection: React.FunctionComponent = () => {
         <div className="about-content-wrapper leading-6 text-sm font-normal text-zinc-500 mt-4">
           <p>
             {
-              'Hey! I am a Data Professional and Developer. I currently work at Networth Corp as a Data Scientist, where our focus is on solving business challenges through data-driven solutions.'
+              'Hey! I\'m a data professional and developer. Currently, I am working with the Data Science and AI engineering team at Networth Corp. Here, I have extensively contributed to a diverse set of roles and responsibilities which includes process engineering, data infrastructure engineering, and frontend development. Prior to this, I have also been a part of developing and delivering user-friendly open-source visualization tools particularly catering to the domain of sports analytics.'
             }
           </p>
           <br></br>
           <p className="text-base text-gray-2000">
             {'Skills'}
           </p>
-          <p>{'➲ Python Scripting & Automation: Numpy, Pandas, SciPy, Statsmodels, Matplotlib, Seaborn, Plotly, Scikit-Learn'}</p>
-          {/* <p>{'➲ Other Programming Languages: C, C++, R'}</p> */}
-          <p>{'➲ Azure DevOps: Managing Repos, Deploying CI/CD Pipelines, Sprint Planning'}</p>
-          <p>{'➲ Frontend: Python Dash, Python Streamlit, Microsoft Power Apps, Microsoft Power BI, HTML, CSS'}</p>
-          <p>{'➲ Database: Fundamentals of Database Engineering, Microsoft SQL Server, PostgreSQL, PyODBC'}</p>
+          <p>{'➲ Python: Numpy, Pandas, Dask, Polars, SciPy, Statsmodels, Matplotlib, Seaborn, Plotly, Dash, Scikit-Learn'}</p>
+          <p>{'➲ Database: MySQL, Microsoft SQL Server, PostgreSQL, PyODBC MongoDB'}</p>
+          <p>{'➲ Microsoft Azure: Azure DevOps, Azure Repos, Azure Pipelines, Azure Functions, Databricks, Azure Data Factory, ADLS'}</p>
+          <p>{'➲ Frontend: Python Dash, Python Streamlit, Microsoft Power Platform (Power BI, Power Apps, Power Automate)'}</p>
           <p>{'➲ Statistical Analysis, Data Mining & Maching Learning'}</p>
           <p>{'➲ Others: Version Control (Git/GitHub), Microsoft Excel, draw.io (UML Diagrams/Flowcharts), Trello (Kanban Framework)'}</p>
-          <p>{'➲ Soft Skills: Problem Solver, Critical Thinker, Contributor/Team Player, Effective Communicator, Coachable & Adaptable'}</p>
+          <p>{'➲ IDEs: Jupyter Notebooks, VS Code, PyCharm, and Spyder'}</p>
         </div>
 
         {/* <Callout className="mt-4">

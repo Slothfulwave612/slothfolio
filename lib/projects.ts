@@ -34,7 +34,7 @@ export const getProjects = function (): ProjectItemProps[] {
         ],
       },
       description: [
-        'soccerplots is a Python library for plotting radar chart and bump charts in Matplotlib.',
+        'soccerplots is a Python library for plotting radar charts and bump charts in Matplotlib.',
         'It\'s functionalities are now merged with mplsoccer.'
       ],
       tech: ['Object-Oriented Programming', 'Python', 'Matplotlib', 'Data Visualization'],
