@@ -12,7 +12,7 @@ const Header: React.FunctionComponent = () => {
 
   return (
     <Section className="flex flex-row items-center justify-start gap-4 mt-8 max-sm:flex-col max-md:flex-col items-center">
-      <motion.div
+      {/* <motion.div
         className="profile-icon-wrapper relative w-fit h-fit"
         whileHover={{ scale: 1.1 }}
         transition={{ type: 'spring', stiffness: 400, damping: 10 }}
@@ -27,7 +27,7 @@ const Header: React.FunctionComponent = () => {
             priority
           />
         </div>
-      </motion.div>
+      </motion.div> */}
       <div>
         <h1 className="welcome-text leading-snug font-semibold text-2xl text-zinc-900">
           {'🦥 Anmol Durgapal'}
