@@ -10,7 +10,7 @@ export const getExperiences = function (): ExperienceItemProps[] {
 
         { type: 'descriptionClass', content: '➲ Data Architecture and Development:' },
         {
-          type: 'descriptionItem', content: 'Contributed to the development of a project management platform to help an organization process-engineer its value tracking, investment planning, and project prioritization activities.'
+          type: 'descriptionItem', content: 'Contributed to the development of a project management platform to help an organization process-engineer its value tracking, investment planning, and project prioritization activities for Analytics and GenAI capabilities.'
         },
         {
           type: 'descriptionItem', content: 'Contributed to the development of a data analytics platform that provides insights from sensory data coming from trained tasting panels evaluating a consumer product, delivering these insights to stakeholders to support their decision-making.'

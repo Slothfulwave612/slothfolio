@@ -98,6 +98,16 @@ const Header: React.FunctionComponent = () => {
               style={{ width: '33px', height: '33px' }}
             />
           </a>
+          {/* Pinterest */}
+          <a href="https://in.pinterest.com/slothfulwave612/" target="_blank" rel="noopener noreferrer">
+            <motion.img
+              src="https://cdn-icons-png.flaticon.com/128/220/220214.png"
+              alt="pinterest-icon"
+              whileHover={{ scale: 1.2 }}
+              transition={{ type: 'spring', stiffness: 400, damping: 10 }}
+              style={{ width: '33px', height: '33px' }}
+            />
+          </a>
         </div>
       </div>
     </Section>
